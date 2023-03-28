@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+nav {
+    background-color: #F5EFE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logobox {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoimg {
+    width: 25%;
+    padding: 10px;
+    background-color: #fffef8;
+    border-radius: 50%;
+}
+
+.nombrenav {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    background-color: #fffef8;
+    padding: 0px 10px;
+    border-radius: 15px;
+    white-space: nowrap;
+    transition: .5s;
+}
+
+.navlink:hover {
+    background-color: #e4e3dc;
+}
+
+/* NAV */
+
+/* INDEX */
+
+.sectionindex1 {
+    background-image: url(../multimedia/fondomovil.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra {
+    background-color: #fbf6eac9;
+    width: 100%;
+    height: 40px;
+}
+
+.section1text {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welc {
+    font-family: 'Itim', cursive;
+    color: #fffbf5;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000000;
+    background-color: #fbf6eaad;
+    border-radius: 15px;
+    padding: 0 2px;
+}
+
+.inf {
+    font-family: 'Itim', cursive;
+    color: #fffbf5;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.barra2 {
+    background-color: #dee6e9c7;
+    width: 100%;
+    height: 40px;
+}
+
+.sectionindex2 {
+    background-color: #AEBDCA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.img2 {
+    width: 85%;
+    border-radius: 50%;
+    border: #dee6e9 5px solid;
+}
+
+.inf2 {
+    font-family: 'Itim', cursive;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+/* INDEX */
+
+/* GALERIA */
+
+.sectiongaleria {
+    background-color: #fffcf8;
+}
+
+.titulogaleria {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #faf5ef;
+}
+
+.boxfotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 5px;
+    background-color: #faf5ef;
+}
+
+.fotos {
+    width: 300px;
+    border-radius: 15px;
+    border: #e4dcd2 3px solid;
+    transition: .5s;
+}
+
+.fotos:hover {
+    border-color: #ccc5bd;
+}
+
+.barra1gal {
+    width: 100%;
+    height: 40px;
+    background-color: #f1ebe2;
+}
+
+.f1 {
+    grid-area: f1;
+}
+
+.f2 {
+    grid-area: f2;
+}
+
+.f3 {
+    grid-area: f3;
+}
+
+.f4 {
+    grid-area: f4;
+}
+
+.f5 {
+    grid-area: f5;
+}
+
+
+/* GALERIA */
+
+/* PRODUCTOS */
+
+.sectionproductos  {
+    background-color: #fffcf8;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloproductos {
+        font-family: 'Itim', cursive;
+        color: #000000;
+        font-size: 30px;
+        text-align: center;
+        padding: 15px;
+        background-color: #faf5ef;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 14px;
+}
+
+.imgproducto {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.descproducto {
+    padding: 10px;
+}
+
+.descproducto h2 {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 25px;
+}
+
+.descproducto {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 20px;
+}
+
+.precio {
+    font-size: 25px;
+}
+
+
+
+
+/* PRODUCTOS */
+
+/* FOOTER */
+
+footer {
+    background-color: #7895B2;
+}
+
+.footerlist {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    background-color: #dee6e9c7;
+    padding: 0px 10px;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.footerlink:hover {
+    background-color: #a5abadc7;
+}
+
+.barrafooter{
+    width: 100%;
+    height: 40px;
+    background-color: #AEBDCA;
+}
+
+/* FOOTER */
+
+/* MEDIAS */
+
+@media screen and (min-width: 600px) {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logobox {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .nombrenav{
+        font-size: 30px;
+    }
+
+    .logoimg {
+        width: 100px;
+    }
+    
+    .navlist {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navlink{
+        font-size: 30px;
+    }
+
+    .section1text {
+        gap: 30px;
+    }
+
+    .welc {
+        font-size: 50px;
+    }
+
+    .inf {
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    .img2 {
+        width: 500px;
+    }
+
+    .inf2 {
+        font-size: 40px;
+    }
+
+    .footerlist {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footerlink {
+        font-size: 25px;
+    }
+
+    .titulogaleria {
+        font-size: 40px;
+    }
+
+    .boxfotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .fotos {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+}
+
+
+@media screen and (min-width: 1023px) {
+
+    .navlist{
+        gap: 15px;
+    }
+
+    .navlink {
+        font-size: 30px;
+    }
+
+    .navlink:hover {
+        font-size: 32px;
+    }
+
+    .logobox {
+        flex-direction: row;
+    }
+
+    .logoimg {
+        margin-left: 25px;
+        width: 80px;
+        transition: 0.5s;
+    }
+
+    .logoimg:hover {
+        width: 90px;
+        padding: 7px;
+    }
+
+    .nombrenav {
+        font-size: 30px;
+    }
+
+    .sectionindex1 {
+        background-image: url(../multimedia/fondodesk.png);
+    }
+
+    .section1text {
+        width: 60%;
+    }
+
+    .welc {
+        text-align: start;
+        font-size: 60px;
+        padding: 15px;
+    }
+
+    .inf {
+        text-align: start;
+        font-size: 45px;
+    }
+
+    .sectionindex2 {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .inf2 {
+        font-size: 45px;
+        text-align: start;
+    }
+
+    .img2 {
+        width: 500px;
+    }
+
+    .boxfotos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 300px 300px 300px;
+        grid-template-areas: 
+        "f1 f1 f2"
+        "f3 f3 f2"
+        "f4 f5 f5"
+        ;
+    }
+
+    .f1 {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .f2 {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .f3 {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .f4 {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .f5 {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .footerlink {
+        font-size: 30px;
+    }
+
+}
+
+/* MEDIAS */
